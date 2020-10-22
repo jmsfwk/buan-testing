@@ -1,0 +1,27 @@
+{
+    "name": "iamproperty/buan-testing",
+    "description": "Testing helpers for Buan",
+    "type": "library",
+    "authors": [
+        {
+            "name": "James Fenwick",
+            "email": "james.fenwick@iamproperty.com"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^7.3",
+        "ext-json": "*",
+        "ext-pdo": "*",
+        "fzaninotto/faker": "^1.8",
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Buan\\Testing\\": "src"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
