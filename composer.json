@@ -1,6 +1,7 @@
 {
     "name": "iamproperty/buan-testing",
     "description": "Testing helpers for Buan",
+    "abandoned": "iamproperty/buan",
     "type": "library",
     "authors": [
         {
